@@ -42,7 +42,8 @@ body {
     background: linear-gradient(45deg,  rgba(255,114,114,1) 0%,rgba(254,144,144,1) 29%,rgba(255,255,255,1) 92%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7272', endColorstr='#ffffff',GradientType=1 );
     padding-top: 90px;
-    
+    max-width: 500px;
+    margin: 0 auto;
 }
 .main {
     display: flex;
@@ -55,7 +56,7 @@ body {
     line-height: 20px;
 }
 .text h2 {
-    padding-top: 15px;
+    padding-top: 25px;
     padding-left: 30px;
     font-family: 'Pacifico', cursive;
     font-size: 20px;
@@ -66,9 +67,13 @@ body {
     font-style: oblique;
     text-shadow: 1px 1px 1px grey;
 }
-.text p {
-
+.text a {
+color: black;
 }
+.text a:hover {
+    color: brown;
+}
+
 .photo img {
     margin: 10px 10px;
     height: 190px;
